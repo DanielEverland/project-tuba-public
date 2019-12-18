@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a686a47eee2fa44cb0a34b5d86e4d5e, type: 3}
+  m_Name: BossFight_01_Phases
+  m_EditorClassIdentifier: 
+  _serializedGraph: '{"version":2.92,"type":"NodeCanvas.BehaviourTrees.BehaviourTree","translation":{"x":-104.0,"y":-100.0},"nodes":[{"_position":{"x":900.0,"y":390.0},"$type":"NodeCanvas.BehaviourTrees.Sequencer","$id":"2"},{"_action":{"waitTime":{"_value":5.0},"minWaitTime":{"_value":1.0},"maxWaitTime":{"_value":2.0},"$type":"NodeCanvas.Tasks.Actions.Wait"},"_position":{"x":825.0,"y":480.0},"$type":"NodeCanvas.BehaviourTrees.ActionNode","$id":"3"},{"dynamic":true,"_position":{"x":975.0,"y":480.0},"$type":"NodeCanvas.BehaviourTrees.Parallel","$id":"8"},{"_position":{"x":810.0,"y":645.0},"$type":"NodeCanvas.BehaviourTrees.Sequencer","$id":"9"},{"_action":{"targetShield":{"_name":"ShieldTarget","_targetVariableID":"a7260936-a09f-4787-b5a1-15a8b7e9c032"},"$type":"NodeCanvas.Tasks.Actions.RemoveShieldLayer"},"_position":{"x":720.0,"y":720.0},"$type":"NodeCanvas.BehaviourTrees.ActionNode","$id":"10"},{"_action":{"type":"Random","waitTime":{"_value":1.0},"minWaitTime":{"_value":6.0},"maxWaitTime":{"_value":10.0},"$type":"NodeCanvas.Tasks.Actions.Wait"},"_position":{"x":885.0,"y":720.0},"$type":"NodeCanvas.BehaviourTrees.ActionNode","$id":"13"},{"_position":{"x":1245.0,"y":660.0},"$type":"NodeCanvas.BehaviourTrees.Sequencer","$id":"18"},{"_action":{"waitTime":{"_value":5.0},"minWaitTime":{"_value":1.0},"maxWaitTime":{"_value":2.0},"$type":"NodeCanvas.Tasks.Actions.Wait"},"_position":{"x":1125.0,"y":735.0},"$type":"NodeCanvas.BehaviourTrees.ActionNode","$id":"19"},{"_position":{"x":1245.0,"y":735.0},"$type":"NodeCanvas.BehaviourTrees.Parallel","$id":"24"},{"_action":{"pattern":{"_value":1},"startAngle":{},"rotationSpeed":{"_value":15.0},"radius":{"_value":5.0},"point":{},"duration":{"_value":10.0},"$type":"NodeCanvas.Tasks.Actions.RotatePatternAroundPoint"},"_position":{"x":1095.0,"y":825.0},"$type":"NodeCanvas.BehaviourTrees.ActionNode","$id":"25"},{"_action":{"pattern":{"_value":1},"startAngle":{"_value":180.0},"rotationSpeed":{"_value":15.0},"radius":{"_value":5.0},"point":{},"duration":{"_value":10.0},"$type":"NodeCanvas.Tasks.Actions.RotatePatternAroundPoint"},"_position":{"x":1320.0,"y":825.0},"$type":"NodeCanvas.BehaviourTrees.ActionNode","$id":"33"},{"_action":{"type":"Random","waitTime":{"_value":1.0},"minWaitTime":{"_value":5.0},"maxWaitTime":{"_value":10.0},"$type":"NodeCanvas.Tasks.Actions.Wait"},"_position":{"x":1365.0,"y":735.0},"$type":"NodeCanvas.BehaviourTrees.ActionNode","$id":"41"}],"connections":[{"_sourceNode":{"$ref":"2"},"_targetNode":{"$ref":"3"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"2"},"_targetNode":{"$ref":"8"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"8"},"_targetNode":{"$ref":"9"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"8"},"_targetNode":{"$ref":"18"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"9"},"_targetNode":{"$ref":"10"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"9"},"_targetNode":{"$ref":"13"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"18"},"_targetNode":{"$ref":"19"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"18"},"_targetNode":{"$ref":"24"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"18"},"_targetNode":{"$ref":"41"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"24"},"_targetNode":{"$ref":"25"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"24"},"_targetNode":{"$ref":"33"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"}],"canvasGroups":[{"name":"Spawning","rect":{"xMin":707.0,"yMin":604.0,"xMax":1006.0,"yMax":802.0}},{"name":"Patterns","rect":{"xMin":1083.0,"yMin":604.0,"xMax":1514.0,"yMax":900.0}}],"localBlackboard":{"_name":"Local
+    Blackboard","_variables":{}},"derivedData":{"repeat":true,"updateInterval":{},"$type":"NodeCanvas.BehaviourTrees.BehaviourTree+DerivedSerializationData"}}'
+  _objectReferences:
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 45fab722a15e74c46a8193a1b05f20c0, type: 2}
+  _deserializationFailed: 0
+  repeat: 1
+  updateInterval:
+    useCustom: 0
+    customTicksPerSecond: 10

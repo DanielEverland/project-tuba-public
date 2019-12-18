@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b26b9994f5d22d04cb9696e406d83579, type: 3}
+  m_Name: Bouncing Behaviour
+  m_EditorClassIdentifier: 
+  description: Good bois love this
+  cooldown: 0.3
+  infiniteAmmo: 0
+  ammoCapacity: 16
+  reloadTime: 0.1
+  muzzles:
+  - _multiplier: 0.6
+    _spawner:
+      type: 0
+      projectile: {fileID: 4157936548944126757, guid: c5565d3e7233c6641bb51c988d52d04d,
+        type: 3}
+      pattern: {fileID: 0}
+      beam: {fileID: 0}
+      hitScanObject: {fileID: 0}
+      explosionObject: {fileID: 0}
+      damageOnTouch: {fileID: 0}
+    _angle: 0
+    _space: 1
+    _intervalStart: 0
+    _intervalEnd: 0
+  randomMuzzle: 0
+  objectsToFire: 1

@@ -1,0 +1,17 @@
+{
+    "name": "ProjectTUBA",
+    "references": [
+        "Unity.TextMeshPro",
+        "Surge",
+        "NodeCanvas",
+        "ScriptableObject-Architecture"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": []
+}

@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8224910061024290928
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7671906929563683115}
+  - component: {fileID: 2344466130647440560}
+  - component: {fileID: 1275306829124432318}
+  m_Layer: 0
+  m_Name: Debug Functionality
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7671906929563683115
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8224910061024290928}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2344466130647440560
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8224910061024290928}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e73e9c07a7e1e142a1e2ae101aa159e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UIRoot: {fileID: 0}
+  canvas3DPrefab: {fileID: 1153966588201987077, guid: 5eb3fe393efe5a149bcabadd8e065d01,
+    type: 3}
+  canvas2DPrefab: {fileID: 409999660721042759, guid: 4ca069cfa80076645a6f51ce3ab22856,
+    type: 3}
+  defaultLoadout: {fileID: 11400000, guid: 41d12f0e2bfa516458dd292761060d09, type: 2}
+--- !u!114 &1275306829124432318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8224910061024290928}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cc73cd9459644b4283b4da759f48d99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

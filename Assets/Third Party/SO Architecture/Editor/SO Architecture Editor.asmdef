@@ -1,0 +1,18 @@
+{
+    "name": "SOArchitectureEditor",
+    "references": [
+        "ProjectTUBA",
+        "ProjectTUBAEditor",
+        "ScriptableObject-Architecture"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": []
+}

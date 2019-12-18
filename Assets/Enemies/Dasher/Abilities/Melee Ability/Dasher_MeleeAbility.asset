@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64db364d493166d45ab502794adeb345, type: 3}
+  m_Name: Dasher_MeleeAbility
+  m_EditorClassIdentifier: 
+  behaviour: {fileID: 11400000, guid: 385bb4afa1e35424086dcb672976a22f, type: 2}
+  action: {fileID: 11400000, guid: 4215c7c9d3d141d48abe07094eb26cba, type: 2}

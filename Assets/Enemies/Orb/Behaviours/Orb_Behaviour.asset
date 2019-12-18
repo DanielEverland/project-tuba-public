@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a686a47eee2fa44cb0a34b5d86e4d5e, type: 3}
+  m_Name: Orb_Behaviour
+  m_EditorClassIdentifier: 
+  _serializedGraph: '{"version":2.92,"type":"NodeCanvas.BehaviourTrees.BehaviourTree","translation":{"x":-76.0,"y":-57.0},"nodes":[{"_position":{"x":960.0,"y":495.0},"$type":"NodeCanvas.BehaviourTrees.Sequencer","$id":"2"},{"_action":{"output":{"_name":"PerceptionTarget","_targetVariableID":"a14db28b-2ef7-4871-8321-18e93afe9723"},"perception":{"_name":"PerceptionExecutor","_targetVariableID":"ed48fad0-0a4f-418b-8ecd-427275a4c627"},"inclusiveTags":[1],"bannedTags":[],"$type":"NodeCanvas.Tasks.Actions.QueryPerception"},"_position":{"x":885.0,"y":570.0},"$type":"NodeCanvas.BehaviourTrees.ActionNode","$id":"3"},{"_action":{"target":{"_name":"PerceptionTarget","_targetVariableID":"a14db28b-2ef7-4871-8321-18e93afe9723"},"inputHandler":{"_name":"MoveExecutor","_targetVariableID":"4c5d91c2-4f19-42fa-bc3a-4b100ded5e95"},"$type":"NodeCanvas.Tasks.Actions.Chase"},"_position":{"x":1020.0,"y":570.0},"$type":"NodeCanvas.BehaviourTrees.ActionNode","$id":"9"}],"connections":[{"_sourceNode":{"$ref":"2"},"_targetNode":{"$ref":"3"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"2"},"_targetNode":{"$ref":"9"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"}],"localBlackboard":{"_name":"Local
+    Blackboard","_variables":{}},"derivedData":{"repeat":true,"$type":"NodeCanvas.BehaviourTrees.BehaviourTree+DerivedSerializationData"}}'
+  _objectReferences:
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 55ebfd00c90204e4a95baa2228f44aa5, type: 2}
+  _deserializationFailed: 0
+  repeat: 1
+  updateInterval: 0

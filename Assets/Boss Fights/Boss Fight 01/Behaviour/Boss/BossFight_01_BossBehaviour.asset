@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a686a47eee2fa44cb0a34b5d86e4d5e, type: 3}
+  m_Name: BossFight_01_BossBehaviour
+  m_EditorClassIdentifier: 
+  _serializedGraph: '{"version":2.92,"type":"NodeCanvas.BehaviourTrees.BehaviourTree","translation":{"x":139.0,"y":-62.0},"nodes":[{"_position":{"x":675.0,"y":570.0},"$type":"NodeCanvas.BehaviourTrees.Sequencer","$id":"2"},{"_action":{"type":"Random","waitTime":{"_value":1.0},"minWaitTime":{"_value":8.0},"maxWaitTime":{"_value":20.0},"$type":"NodeCanvas.Tasks.Actions.Wait"},"_position":{"x":540.0,"y":660.0},"$type":"NodeCanvas.BehaviourTrees.ActionNode","$id":"3"},{"_action":{"output":{"_name":"PerceptionTarget","_targetVariableID":"3eba1f92-6911-4509-a1d0-0070f1ee8575"},"perception":{"_name":"PerceptionExecutor","_targetVariableID":"9702ba3c-0a6a-4646-bd0b-786f48465377"},"inclusiveTags":[1],"bannedTags":[],"$type":"NodeCanvas.Tasks.Actions.QueryPerception"},"_position":{"x":660.0,"y":660.0},"$type":"NodeCanvas.BehaviourTrees.ActionNode","$id":"8"},{"_action":{"attacker":{"_name":"AttackExecutor","_targetVariableID":"761445b6-42c0-4284-b9f0-6e2d85890ed7"},"target":{"_name":"PerceptionTarget","_targetVariableID":"3eba1f92-6911-4509-a1d0-0070f1ee8575"},"$type":"NodeCanvas.Tasks.Actions.UseAbility"},"_position":{"x":795.0,"y":660.0},"$type":"NodeCanvas.BehaviourTrees.ActionNode","$id":"14"}],"connections":[{"_sourceNode":{"$ref":"2"},"_targetNode":{"$ref":"3"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"2"},"_targetNode":{"$ref":"8"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"2"},"_targetNode":{"$ref":"14"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"}],"localBlackboard":{"_name":"Local
+    Blackboard","_variables":{}},"derivedData":{"repeat":true,"updateInterval":{},"$type":"NodeCanvas.BehaviourTrees.BehaviourTree+DerivedSerializationData"}}'
+  _objectReferences:
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 55ebfd00c90204e4a95baa2228f44aa5, type: 2}
+  _deserializationFailed: 0
+  repeat: 1
+  updateInterval:
+    useCustom: 0
+    customTicksPerSecond: 10

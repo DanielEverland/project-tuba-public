@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cc0961816e3b514c9b93fcb1dd8c3ab, type: 3}
+  m_Name: Default Wall
+  m_EditorClassIdentifier: 
+  brush:
+    uniqueIdentifier: 1
+  brushMaterials:
+  - {fileID: 2100000, guid: 7b5deff4250bbc74493c862719ff718a, type: 2}
+  - {fileID: 2100000, guid: 062032c6b18188444a826b7c124d0ca9, type: 2}
+  edgeMaterial: {fileID: 2100000, guid: 4eee25b0175c4164eafb30004a80be12, type: 2}
+  castsShadows: 1
+  isWalkable: 0

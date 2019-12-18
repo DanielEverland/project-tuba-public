@@ -1,0 +1,16 @@
+{
+    "name": "Surge.Editor",
+    "references": [
+        "Surge"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": []
+}

@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c338302b4ea428b409c48a1d93f08441, type: 3}
+  m_Name: ShowSeed
+  m_EditorClassIdentifier: 
+  textElementPrefab: {fileID: 8966812192575716644, guid: dfab9b8605c244949bb83473913e829c,
+    type: 3}
+  useSeedVariable: {fileID: 11400000, guid: 1fe1b74d4b7b76241a2f8c83f8067320, type: 2}
+  seedValue: {fileID: 11400000, guid: 47f7d689cde14db498d73d7a7f639341, type: 2}

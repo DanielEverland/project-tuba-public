@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76849e0fda0bd1f4abd027056377e3bc, type: 3}
+  m_Name: TestTheme
+  m_EditorClassIdentifier: 
+  floorTile: {fileID: 11400000, guid: 7ed3d29a655b7c94e96a4d93e83f633e, type: 2}
+  wallTile: {fileID: 11400000, guid: 858fa9ca9e410394b9038cc74e254011, type: 2}
+  spawnRoom: {fileID: 11400000, guid: a8eca9218abb5bf448c2097c5db1d1dd, type: 2}
+  bossCatwalk: {fileID: 11400000, guid: 8752bccd85363d84c9564dc6f65d0351, type: 2}
+  enemyCombinations:
+  - {fileID: 11400000, guid: bf3c2995478d4a246a5b703f753b5a0a, type: 2}
+  - {fileID: 11400000, guid: 89f5c8c42c93fba4e832367725d30974, type: 2}
+  - {fileID: 11400000, guid: a6dd2f00faaa90547827fe61cc38346c, type: 2}
+  - {fileID: 11400000, guid: 096ca1000b5a1f3459d87888cf5cc199, type: 2}

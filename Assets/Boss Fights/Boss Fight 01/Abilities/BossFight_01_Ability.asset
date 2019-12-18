@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64db364d493166d45ab502794adeb345, type: 3}
+  m_Name: BossFight_01_Ability
+  m_EditorClassIdentifier: 
+  behaviour: {fileID: 11400000, guid: dc2689f8a51e0f14996e7344c8d137c3, type: 2}
+  action: {fileID: 11400000, guid: de6a556a7a99e41428bad341e23e0975, type: 2}

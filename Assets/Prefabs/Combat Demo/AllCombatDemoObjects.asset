@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 156f4052644faf645bba864aa1fd4e16, type: 3}
+  m_Name: AllCombatDemoObjects
+  m_EditorClassIdentifier: 
+  DeveloperDescription:
+    _value: 
+  _list:
+  - {fileID: 4350593858434079785, guid: 693595f0b1ebf884eb73066e50159289, type: 3}
+  - {fileID: 31, guid: 7aa1b43d8a023bc49b3fca3d220d7714, type: 3}
+  - {fileID: 65, guid: ffdbe21ea16133340bce685c0fbe78b7, type: 3}
+  - {fileID: 7719849433149278247, guid: a0ca6012a5c3d7e438517ff14599b111, type: 3}
