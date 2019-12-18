@@ -1,4 +1,4 @@
-# Project-TUBA-Prototype
+# Project-TUBA-Public
 
 Requires [ScriptableObject-Architecture](https://github.com/DanielEverland/ScriptableObject-Architecture)
 
